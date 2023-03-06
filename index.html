@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <h1>calcU</h1>
+    <p>Hello, please input two numbers you want to calculate and select the operators using the buttons below. 1st number inputted will be on the left side of the equation.</p>
+    <input type="text" placeholder="Num 1" id="num1">
+    <input type="text" placeholder="Num 2" id="num2">
+    <br>
+    <button onclick="add()" title="Add numbers using this operator">+</button>
+    <button onclick="minus()" title="Subtract numbers using this operator">-</button>
+    <button onclick="mult()" title="Multiply numbers using this operator">*</button>
+    <button onclick="divide()" title="Divide numbers using this operator">/</button>
+    <button onclick="mod()" title="Get the remainder of numbers using this operator">%</button>
+    <p id="result">Results will be displayed here</p>
+</body>
+</html>
